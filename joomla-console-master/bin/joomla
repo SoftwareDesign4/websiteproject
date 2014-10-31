@@ -1,0 +1,31 @@
+#!/usr/bin/env php
+<?php
+/**
+ * @copyright	Copyright (C) 2007 - 2014 Johan Janssens and Timble CVBA. (http://www.timble.net)
+ * @license		Mozilla Public License, version 2.0
+ * @link		http://github.com/joomlatools/joomla-console for the canonical source repository
+ */
+
+$autoload = __DIR__.'/../vendor/autoload.php';
+if(is_file($autoload)) {
+    require $autoload;
+} else {
+   require __DIR__.'/../../../../vendor/autoload.php';
+}
+
+use Symfony\Component\Console\Application;
+
+$application = new Application('Joomla console tools', '1.0');
+
+$application->add(new Joomlatools\Console\Command\Symlink());
+
+$application->add(new Joomlatools\Console\Command\SiteCreate());
+$application->add(new Joomlatools\Console\Command\SiteDelete());
+$application->add(new Joomlatools\Console\Command\SiteToken());
+$application->add(new Joomlatools\Console\Command\ExtensionSymlink());
+$application->add(new Joomlatools\Console\Command\ExtensionInstall());
+$application->add(new Joomlatools\Console\Command\ExtensionInstallFile());
+
+$application->add(new Joomlatools\Console\Command\Versions());
+
+$application->run();
