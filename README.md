@@ -102,6 +102,8 @@ Testing will be done with test cases.
 Joolma 3.3.6  
 
 ## 3.7 Joomla API  
+Joomla CMS 2.5 and 3.x
+Joomla Framework 1.x and 2.x
 
 ##3.8 System Architecture and Architectural Strategies  
 
