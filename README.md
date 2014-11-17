@@ -8,6 +8,7 @@ Contents
 **3.4 Database Service Assumptions**  
 **3.5 Testing Assumptions**  
 **3.6 Software Version**  
+**3.7 Joomla API**  
 **4.0 Purpose of Website**  
 **5.0 Requirements**  
 **5.1 Functional Requirements**  
@@ -134,7 +135,63 @@ This module provides support for multiple languages on the front end site functi
 Joomla System – Language Filter extension
   
 #7.0	 System Validation  
+## 7.1 Test Cases  
+A prototype version of the Website shall be run offline and tested with test cases to see if it meets the user requirements.  
   
+### 7.1.0 Test Case 2: Website Accessibility  
+**7.1.1 Description**  
+This test case shall test whether the database can be accessed by URL name or by loading the pages directly into the Web browser.  
+  
+**7.1.2 Resources**  
+This test case shall test whether the user of the Website will be able to navigate the Website's webpages by clicking on the webpage links on each webpage.  
+  
+**7.1.3 Pre-Conditions**  
+The Website must have pages that can be loaded into a web browser.  
+  
+**7.1.4 Post Conditions**  
+The loaded webpages should be displayed in the web browser.  
+  
+**7.1.5 Flow of Events**  
+1. Run the webpage HTML file. The web browser should open and display the webpage that was run.  
+2. Type in the location of the file (URL) on the hard disk when using the computer/server the Website's files is located on. The webpage belonging to the path-name (URL) should be displayed.  
+3. If the website is being accessed from a computer not containing the website files the URL address of the website must be typed in. The webpage linked to the URL must be displayed.  
+  
+**7.1.6 Inclusion/exclusion Points**  
+No other Test Cases included at his point.  
+  
+**7.1.7 Special Requirements**  
+None at this point.  
+  
+### 7.2.0 Test Case 1: Webpage Navigation  
+**7.2.1 Description**  
+This test case shall test whether the user of the Website will be able to navigate the Website's webpages by clicking on the webpage links on each webpage.  
+  
+**7.2.2 Resources**  
+The individuals involved in testing will be the lead Web designer and a minimum of one other group member.  
+  
+**7.2.3 Pre-conditions**  
+The Website must be deployed in a functional state and must be able to be accessed with a web browser. The database is not needed for this test case as the navigation of the webpages does not rely on the database.  
+  
+**7.2.4 Post-conditions**  
+One of the webpages of the Website should be displayed.  
+
+**7.2.5 Flow of events**  
+1. The main webpage should be displayed upon first access of the Website. There should be a menu containing the menu items: Home Page, Booking, About Us, and Contact Us.  
+2. Click on the Home Page menu item link. A page should open with a header clearly identifying the webpage as the Home Page webpage. If the user already has the Home Page displayed then it should simply refresh the webpage and the Home Page webpage should remain being displayed.  
+3. Click on the Booking menu item link. A page should open with a header clearly identifying the webpage as the Booking webpage. If the user already has the Booking webpage displayed then it should simply refresh the webpage and the Booking webpage should remain being displayed.  
+4. Click on the About Us menu item link. A page should open with a header clearly identifying the webpage as the About Us webpage. If the user already has the About Us webpage displayed then it should simply refresh the webpage and the About Us webpage should remain being displayed.
+5. Click on the Contact Us menu item link. A page should open with a header clearly identifying the webpage as the Contact Us webpage. If the user already has the Contact Us webpage displayed then it should simply refresh the webpage and the Contact Us webpage should remain being displayed.
+6. When displayed each webpage must have the full list of menu items to enable navigation between the webpages.
+7. Systematically choose the first webpage on the list and click on each menu item link on that webpage also working systematically top-down with the list. This process must be done for every webpage. Users should be able to see the webpage they clicked on each time without encountering pointer errors from the links located on each website.  
+  
+7.2.6 Inclusion/Exclusion Points  
+The test case that must be included is Test Case 2. The other test cases can be excluded.  
+  
+7.2.7 Special Requirements  
+None at this current state of the project.  
+  
+**7.3.0 Test Case 3: Making a booking**  
+**7.4.0 Test Case 4: 
 #8.0	Use Cases  
 The person who logs onto the website to place a booking will hence forth be referred to as only “the user” or just “user” to simplify things in this section of the document.
   
