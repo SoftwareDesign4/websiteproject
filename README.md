@@ -9,6 +9,7 @@ Contents
 **3.5 Testing Assumptions**  
 **3.6 Software Version**  
 **3.7 Joomla API**  
+**3.8 Architecture**  
 **4.0 Purpose of Website**  
 **5.0 Requirements**  
 **5.1 Functional Requirements**  
@@ -179,9 +180,9 @@ One of the webpages of the Website should be displayed.
 1. The main webpage should be displayed upon first access of the Website. There should be a menu containing the menu items: Home Page, Booking, About Us, and Contact Us.  
 2. Click on the Home Page menu item link. A page should open with a header clearly identifying the webpage as the Home Page webpage. If the user already has the Home Page displayed then it should simply refresh the webpage and the Home Page webpage should remain being displayed.  
 3. Click on the Booking menu item link. A page should open with a header clearly identifying the webpage as the Booking webpage. If the user already has the Booking webpage displayed then it should simply refresh the webpage and the Booking webpage should remain being displayed.  
-4. Click on the About Us menu item link. A page should open with a header clearly identifying the webpage as the About Us webpage. If the user already has the About Us webpage displayed then it should simply refresh the webpage and the About Us webpage should remain being displayed.
-5. Click on the Contact Us menu item link. A page should open with a header clearly identifying the webpage as the Contact Us webpage. If the user already has the Contact Us webpage displayed then it should simply refresh the webpage and the Contact Us webpage should remain being displayed.
-6. When displayed each webpage must have the full list of menu items to enable navigation between the webpages.
+4. Click on the About Us menu item link. A page should open with a header clearly identifying the webpage as the About Us webpage. If the user already has the About Us webpage displayed then it should simply refresh the webpage and the About Us webpage should remain being displayed.  
+5. Click on the Contact Us menu item link. A page should open with a header clearly identifying the webpage as the Contact Us webpage. If the user already has the Contact Us webpage displayed then it should simply refresh the webpage and the Contact Us webpage should remain being displayed.  
+6. When displayed each webpage must have the full list of menu items to enable navigation between the webpages.  
 7. Systematically choose the first webpage on the list and click on each menu item link on that webpage also working systematically top-down with the list. This process must be done for every webpage. Users should be able to see the webpage they clicked on each time without encountering pointer errors from the links located on each website.  
   
 7.2.6 Inclusion/Exclusion Points  
@@ -192,6 +193,7 @@ None at this current state of the project.
   
 **7.3.0 Test Case 3: Making a booking**  
 **7.4.0 Test Case 4: 
+  
 #8.0	Use Cases  
 The person who logs onto the website to place a booking will hence forth be referred to as only “the user” or just “user” to simplify things in this section of the document.
   
