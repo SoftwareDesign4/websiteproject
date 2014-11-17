@@ -1,3 +1,44 @@
+#Hunting Tomatoes - A Safari Hunting Experience  
+
+##Introduction  
+
+When writing software that other people will use and other engineers will change then you usually have to provide additional information as well as the code of the program. You need to concern yourself with writing program guidelines, and documenting the program etc.  
+
+The fundamental activities of software engineering are:  
+1.	 Software Specification, where customers and engineers define the software that is to be produced and the constraints of its operation.  
+2.	Software Development, where customers and engineers define.  
+3.	Software Validation, where the software is checked to ensure that it is what the customer requires.  
+4.	Software Evolution, where the software is modified to reflect changing customer and market requirements.  
+
+Software engineering has a broad range of approaches to realising the production of software.  Determining which methods and techniques to use is seeded in the type of application that is being developed. Generally, application types are grouped into several categories, namely stand-alone applications, interactive transaction-based applications, embedded control systems, batch processing systems, entertainment systems, systems for modelling and simulation, data collection systems, and systems-of-systems.
+
+##Our software engineering project is an interactive web-based application  
+
+Developing this application much prefers iterative development and delivery. The web-application system also much prefers being composed of reusable components.  
+
+Regardless of application type, the following software engineering fundamentals apply to all types of software systems:  
+
+1.	They should be developed using a managed and understood software development process. The organization developing the software should plan the development process and have clear ideas of what will be produced and when it will be completed. Of course, different processes are used for different types of software.  
+
+2.	 Dependability, security and performance are important for all types of systems. Software should behave as expected, without failures and should be available for use when it is required. It should be safe in its operation and, as far as possible, should be secure against external attack. The system should perform efficiently and should not waste resources.  
+
+3.	Understanding and managing the software specification and requirements (what the software should do) document is important. You have to know what different customers and users of the system expect from it and you have to manage their expectations so that a useful system can be delivered within budget and to schedule.  
+
+4.	 You should make as effective use as possible of existing resources. This means that, where appropriate, you should reuse software that has already been developed rather than write new software.  
+
+##Conclusion  
+
+Software is not just about writing code, it includes having documentation which covers all aspects of a software development project; that is from inception to realisation and furthermore ongoing maintenance.  
+
+##Works Cited  
+
+Sommerville, I. (2009). Software Engineering 9th Edition. Boston,Massachusetts 02116: Pearson.    
+
+#Documentation  
+
+Project documentation: https://github.com/SoftwareDesign4/websiteproject/wiki
+
+
 Contents  
 **1.0 Introduction**  
 **2.0 Processes and Methods**  
@@ -99,127 +140,10 @@ The user shall only be able to change the “booking” fields of the website to
 Testing will be done with test cases.
   
 ## 3.6 Software Version  
-Joolma 3.3.6  
 
 ## 3.7 Joomla API  
-Joomla CMS 2.5 and 3.x
-Joomla Framework 1.x and 2.x
 
-##3.8 System Architecture and Architectural Strategies  
-
-This section aims to describe any design decisions and/or strategies that affect the overall organization of the system and its higher-level structures. These strategies should provide insight into the key abstractions and mechanisms used in the system architecture.
-
-Furthermore, this section will describe the reasoning employed for each decision and/or strategy (possibly referring to previously stated design goals and principles) and how any design goals or priorities were balanced or traded-off. 
-
-###Use of particular product
-
-####1.Joomla!
-(Figure 3.8.1 Joomla! Framework)
-
-![Joomla! Framework](https://github.com/SoftwareDesign4/websiteproject/blob/master/Documentation/Deliverables/Images/Joomla_Framework_1200x650.png)
-
-#####a. PHP Framework  
-
-######i. Collection of software libraries/packages for web and command line applications in PHP.  
-
-1. Building a RESTful web services platform
-2. Building both simple and complex command line tools  
-3. Building next generation web applications  
-
-#####b. Model-view-controller web application framework  
-
-(Figure 3.8.2 Joomla! Model View Controller)  
-![Model View Controller](https://github.com/SoftwareDesign4/websiteproject/blob/master/Documentation/Deliverables/Images/Joomla_Model-View-Controller%20(MVC).png)  
-
-######i. Framework supports dynamic web application development, as libraries for database access, templates, session management, and component reuse. Divides application into three components and defines interaction between them.  
-
-#####c. Content Management System (CMS)  
-
-(Figure 3.8.3 Framework of a Content Management System  )  
-![CMS Framework](https://github.com/SoftwareDesign4/websiteproject/blob/master/Documentation/Deliverables/Images/Content%20Management%20System.jpg)
-  
-######i. To organise, categorise, and structure information, text, images, documents, audio, and video, to be stored, published, and edited with flexibility and ease.  
-
-####2. Joomla! Content Management System Architecture  
-
-(Figure 3.8.4 Joomla! CMS Architecture)  
-![Joomla CMS Architecture](https://github.com/SoftwareDesign4/websiteproject/blob/master/Documentation/Deliverables/Images/joomla-cms-architecture-2-638.jpg)  
-(http://www.slideshare.net/dustinczysz/joomla-cms-architecture)  
-
-
-#####a.	Consists of the following  
-######i. MySQL Database  
-1.	All your content except image files & documents are stored in the database (MySQL).  
-
-######ii. phpMyAdmin – a graphical interface for MySQL database management  
-
-######iii. Joomla! Framework  
-1. The Joomla! Framework is a collection of open source software that the Joomla! CMS is built on.
-Components, modules and plugins are referred to as Extensions. They ‘extend’ the base Joomla! Framework, either through 3rd party software developed for the framework, or through Joomla! Project developers.  
-
-######iv. Components  
-1. Components can be thought of as mini ‘Applications’ and are what you will interact with most. Components Example Components: - Users Manager (Protected) - ZOO (3rd Party CCK) - DOCman (3rd Party)  
-
-######v. Modules  
-1. Modules are lightweight extensions used in page rendering. They can stand on their own or be used to display data from a Component. Modules are managed from the “Module Manager” (which is itself a Component). Modules Example Modules: - A box of HTML in a sidebar - A list of recently posted articles  
-
-######vi. Plugins  
-1. Plugins are bits of code that execute at specific event triggers. They are a powerful way of extending the Joomla! Framework. Example Plugins: - User Authentication - “Shortcodes” - Editor Buttons - Email Cloaking Plugins  
-
-######vii. Templates  
-1.	Templates determine the look and feel of the website. They are the ‘icing on the cake’.  
-
-######viii.Website  
-1.	The Website is the graphical interface to it all, and it’s what users will interact with on the front-end, and what administrators will interact with on the back-end.  
-
-(Figure 3.8.5 Joomla! CMS Architecture)  
-![Joomla! CMS Architecture](https://github.com/SoftwareDesign4/websiteproject/blob/master/Documentation/Deliverables/Images/joomla-cms-architecture-2-638.jpg)  
-(http://www.slideshare.net/dustinczysz/joomla-cms-architecture)  
-
-####3.	MySQL Server Database Architecture  
-MySQL is a relational database management system (RDBMS), and ships with no GUI tools to administer MySQL databases or manage data contained within the databases. Users may use the included command line tools, or use MySQL "front-ends", desktop software and web applications such as phpMyAdmin that create and manage MySQL databases, build database structures, back up data, inspect status, and work with data records.  
-
-(Figure 3.8.6 MySQL Database Architecture)  
-![MySQL Database Server Architecture](https://github.com/SoftwareDesign4/websiteproject/blob/master/Documentation/Deliverables/Images/mysql_server.jpg)  
-#####a.	License
-i.	GNU General Public License
-ii.	Developed by Oracle Developers – in-depth documentation and strong support
-b.	Open-source relational database management system (RDBMS)
-i.	Popular choice for web-applications
-ii.	Central component for LAMP and WAMP open source web application software stack
-iii.	Linux Apache MySQL Perl/PHP/Python (LAMP)
-iv.	Windows Apache MySQL Perl/PHP/Python (WAMP)  
-
-####4.	phpMyAdmin  
-
-phpMyAdmin is a free and open source tool written in PHP intended to handle the administration of MySQL with the use of a web browser. It can perform various tasks such as creating, modifying or deleting databases, tables, fields or rows; executing SQL statements; or managing users and permissions.
-
-(Figure 3.8.7 How phpMyAdmin Connects to MySQL Database)  
-![phpMyAdmin Connects to MySQL Database](https://github.com/SoftwareDesign4/websiteproject/blob/master/Documentation/Deliverables/Images/Php%20MySql.gif)  
-
-
-#####a.	License
-i.	GNU General Public License  
-ii.	http://wiki.phpmyadmin.net/pma/License  
-
-#####b.	Handles the administration of MySQL over the Web
-#####c.	Supports a wide range of operations on MySQL. Frequently used operations (managing databases, tables, columns, relations, indexes, users, permissions, etc) 
-#####d.	Administration via the user interface, while you still have the ability to directly execute any SQL statement.
-#####e.	Intuitive web interface
-#####f.	Support for most MySQL features:
-i.	browse and drop databases, tables, views, fields and indexes
-ii.	create, copy, drop, rename and alter databases, tables, fields and indexes
-iii.	maintenance server, databases and tables, with proposals on server configuration
-iv.	execute, edit and bookmark any SQL-statement, even batch-queries
-v.	manage MySQL users and privileges
-vi.	manage stored procedures and triggers
-#####g.	Import data from CSV and SQL
-#####h.	Export data to various formats: CSV, SQL, XML, PDF, ISO/IEC 26300 - OpenDocument Text and Spreadsheet, Word, LATEX and others
-#####i.	Administering multiple servers
-#####j.	Creating PDF graphics of your database layout
-#####k.	Creating complex queries using Query-by-example (QBE)
-#####l.	Searching globally in a database or a subset of it
-#####m.	Transforming stored data into any format using a set of predefined functions, like displaying BLOB-data as image or download-link  
+## 3.8 System Architecture and Architectural Strategies 
 
 # 4.0 Purpose of Website  
 The Website is used to simulate a booking website that asks a user to give their information and details to book a hunting trip. No payment details are required, only contact – and identification information as it is assumed a customer will pay at the physical location.
@@ -254,7 +178,7 @@ This module provides support for multiple languages on the front end site functi
 Joomla System – Language Filter extension
   
 #7.0	 System Validation  
-##Test Cases  
+## 7.1 Test Cases  
 A prototype version of the Website shall be run offline and tested with test cases to see if it meets the user requirements.  
   
 ### 7.1.0 Test Case 1: Website Accessibility  
