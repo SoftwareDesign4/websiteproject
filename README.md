@@ -99,6 +99,7 @@ The user shall only be able to change the “booking” fields of the website to
 Testing will be done with test cases.
   
 ## 3.6 Software Version  
+Joolma 3.3.6  
 
 ## 3.7 Joomla API  
 
