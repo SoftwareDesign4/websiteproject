@@ -104,15 +104,6 @@ Testing will be done with test cases.
 
 ## 3.8 System Architecture and Architectural Strategies 
 
-This section aims to describe any design decisions and/or strategies that affect the overall organization of the system and its higher-level structures. These strategies should provide insight into the key abstractions and mechanisms used in the system architecture.  
-
-Furthermore, this section will describe the reasoning employed for each decision and/or strategy (possibly referring to previously stated design goals and principles) and how any design goals or priorities were balanced or traded-off.
-
-System Architecture Appendices  
-https://github.com/SoftwareDesign4/websiteproject/blob/master/Documentation/Deliverables/Images/Content%20Management%20System.jpg
-
-###Use of particular product
-  
 # 4.0 Purpose of Website  
 The Website is used to simulate a booking website that asks a user to give their information and details to book a hunting trip. No payment details are required, only contact – and identification information as it is assumed a customer will pay at the physical location.
   
