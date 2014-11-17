@@ -140,7 +140,7 @@ Joomla System – Language Filter extension
 ## 7.1 Test Cases  
 A prototype version of the Website shall be run offline and tested with test cases to see if it meets the user requirements.  
   
-### 7.1.0 Test Case 2: Website Accessibility  
+### 7.1.0 Test Case 1: Website Accessibility  
 **7.1.1 Description**  
 This test case shall test whether the database can be accessed by URL name or by loading the pages directly into the Web browser.  
   
@@ -164,7 +164,7 @@ No other Test Cases included at his point.
 **7.1.7 Special Requirements**  
 None at this point.  
   
-### 7.2.0 Test Case 1: Webpage Navigation  
+### 7.2.0 Test Case 2: Webpage Navigation  
 **7.2.1 Description**  
 This test case shall test whether the user of the Website will be able to navigate the Website's webpages by clicking on the webpage links on each webpage.  
   
@@ -186,14 +186,58 @@ One of the webpages of the Website should be displayed.
 6. When displayed each webpage must have the full list of menu items to enable navigation between the webpages.  
 7. Systematically choose the first webpage on the list and click on each menu item link on that webpage also working systematically top-down with the list. This process must be done for every webpage. Users should be able to see the webpage they clicked on each time without encountering pointer errors from the links located on each website.  
   
-7.2.6 Inclusion/Exclusion Points  
+**7.2.6 Inclusion/Exclusion Points**  
 The test case that must be included is Test Case 2. The other test cases can be excluded.  
   
-7.2.7 Special Requirements  
+**7.2.7 Special Requirements**  
 None at this current state of the project.  
   
-**7.3.0 Test Case 3: Making a booking**  
-**7.4.0 Test Case 4: 
+### 7.3.0 Test Case 3: Making a booking  
+**7.3.1 Description**  
+Testing the booking functionality of the Website's Booking page.  
+  
+**7.3.2 Resources**  
+The individuals involved in testing will be the lead Web designer and a minimum of one other group member.  
+  
+**7.3.3 Pre-conditions**  
+Website accessible.  
+  
+**7.3.4 Post Conditions**  
+Booking information sent to database.  
+  
+**7.3.5 Flow of Events**  
+1. Click on one of the numbers representing a day of the year. User should be taken to next page asking to select a package.  
+2. Click on the text "Availible" to select the package in that column. The next page should then display required fields to be filled by the user to complete the booking.  
+3. Fill the required fields and click submit. Upon a successful booking a webpage should be displayed idicating it was a success.  
+  
+**7.3.6 Inclusions/Exclusion Points** 
+Test cases 1 and 2 must be included.  
+  
+**7.3.7 Special Requirements**  
+None at this point.  
+  
+### 7.4.0 Test Case 4: Contact Us  
+**7.4.1 Description**  
+Allows the user to send data to the staff operating the Website.  
+  
+**7.4.2 Resources**  
+This test case shall test whether the user of the Website will be able to navigate the Website's webpages by clicking on the webpage links on each webpage.  
+  
+**7.4.3 Pre-conditions**  
+Website accessible and operational.  
+  
+**7.4.4 Post Conditions**  
+Email sent to staff operating the Website.  
+  
+**7.4.5 Flow of Events**  
+1. Two tabs should be displayed on the website. Click on the second tab and fill in the required text fields. The text containers should not display a red outline if the text is of the correct type and structure.  
+2. Click submit. Page should reload and display the first tab again once submit it processed.  
+   
+**7.4.6 Inclusion/Exclusion Points**  
+Test cases 1 and 2 must be included. Others can be excluded.  
+  
+**7.4.7 Special Requirements**  
+None at this moment.  
   
 #8.0	Use Cases  
 The person who logs onto the website to place a booking will hence forth be referred to as only “the user” or just “user” to simplify things in this section of the document.
