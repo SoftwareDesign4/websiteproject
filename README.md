@@ -252,7 +252,7 @@ This module provides support for multiple languages on the front end site functi
 Joomla System – Language Filter extension
   
 #7.0	 System Validation  
-## 7.1 Test Cases  
+##Test Cases  
 A prototype version of the Website shall be run offline and tested with test cases to see if it meets the user requirements.  
   
 ### 7.1.0 Test Case 1: Website Accessibility  
