@@ -1,4 +1,4 @@
-#Hunting Tomatoes - A Safari Hunting Experience  
+#Hunting South Africa - A Safari Hunting Experience  
 
 ##Introduction  
 
@@ -36,5 +36,5 @@ Sommerville, I. (2009). Software Engineering 9th Edition. Boston,Massachusetts 0
 
 #Documentation  
 
-Project documentation: https://github.com/SoftwareDesign4/websiteproject/wiki
+Project documentation [Read More](https://github.com/SoftwareDesign4/websiteproject/wiki).
 
